@@ -40,11 +40,9 @@ This part of a website is a simple login form, where you can enter your credenti
 
 <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Login%20page.png">
 
-
-
- 
-
 8.	Mobile preview:
   
-  
-
+  <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20home%20look.png">
+  <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20movie%20info%20screen.png">
+  <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20search.png">
+  <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20login.png">
