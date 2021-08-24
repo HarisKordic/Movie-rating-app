@@ -1,4 +1,4 @@
-# Movie-rating-app-
+# Movie-rating-app
 
 
 This is a simple project, where I used plain React JavaScript and TMDB’s API to create a responsive and interactive movie rating/info website.
