@@ -43,7 +43,7 @@ This part of a website is a simple login form, where you can enter your credenti
 8.	Mobile preview:
   
   <div  style=" display:flex;">
- <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20home%20look.png">
+ <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20home%20look.png" height=300px >
   <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20movie%20info%20screen.png">
   <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20search.png">
   <img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Mobile%20login.png">
