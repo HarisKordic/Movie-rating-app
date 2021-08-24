@@ -13,7 +13,7 @@ Explanation of some of the functionalities on the website:
 1.	Home page:
 On the home page you can see the most popular movie currently (at the time of visiting the website), and also see some of the newer movies. You can search for a specific movie and login in the top right corner with your username and password.
 
-
+<img src="https://github.com/HarisKordic/Movie-rating-app/blob/main/Design%20pictures/Actors.png">
  
 
 2.	Movie grid:
