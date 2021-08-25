@@ -1,13 +1,13 @@
 # Movie-rating-app
 
 
-This is a simple project, where I used plain React JavaScript and TMDB’s API to create a responsive and interactive movie rating/info website.
+This is a simple project, where I used plain React JavaScript and TMDB’s API to create a responsive and interactive movie rating/info website.The website is fully responsive and ready to use on any modern device.
 
 Besides React, I used some other  packages that I imported using npm, such as:
 -	Styled components for SCSS
 -	React router for routing on the website
 -	PropTypes for checking property types
-The website is fully responsive and ready to use on any modern device.
+
 
 Explanation of some of the functionalities on the website:
 1.	Home page:
