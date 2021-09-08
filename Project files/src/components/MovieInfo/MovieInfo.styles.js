@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
       opacity: 0;
     }
     to {
-      opacity: 1;
+      opacity: 1; 
     }
   }
 `;

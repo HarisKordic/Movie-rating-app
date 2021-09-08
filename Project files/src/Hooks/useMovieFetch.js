@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import API from "../API";
 import { isPersistedState } from "../helpers";
 export const useMovieFetch = (movieId) => {
-  const [state, setState] = useState({}); //Dflt empty object;
+  const [state, setState] = useState({}); //Default  empty object;
   const [loading, setLoading] = useState(true); //True bc it start's by fetching the data for the movie;
   const [error, setError] = useState(false);
 

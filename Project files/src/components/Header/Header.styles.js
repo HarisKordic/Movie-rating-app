@@ -31,7 +31,6 @@ export const Content = styled.div`
     #logged-in {
       left: 0;
       left:4%;
-
     }
     #login {
       left: 0;

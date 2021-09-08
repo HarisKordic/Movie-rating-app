@@ -17,5 +17,4 @@ export const Content = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px,1fr));/*Grid syntax,minimum width is minmax property*/
   grid-gap:2rem;/*Spacing between columns*/
-
 `;

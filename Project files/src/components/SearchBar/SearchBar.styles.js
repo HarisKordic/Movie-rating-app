@@ -21,8 +21,8 @@ export const Content = styled.div`
   img {
     position: absolute;
     left: 15px;
-    top: 14px;
-    width: 30px;
+    top: 16px;
+    width: 25px;
   }
   input {
     font-size: 28px;

@@ -18,11 +18,11 @@ const Home = () => {
   const { state, loading, error, searchTerm, setSearchTerm ,setIsLoadingMore} = useHomeFetch();
   console.log(state);
 
-  if(error)return <div>Something went wrong...</div>
+  if(error)return <div>Oops... Something went wrong...</div>
 
   return (
     <>
-      {/*This is a fragment item used to wrap everything else;*/}
+      {/*This  <> is a fragment item used to wrap everything else;*/}
 
       {!searchTerm && state.results[0] ? ( //If theres no search term and there is the first movie in the array;
         <HeroImage
@@ -34,6 +34,7 @@ const Home = () => {
       ) : null}
       <SearchBar setSearchTerm={setSearchTerm} />
       {/*Passing along the needed searchTerm*/}
+
       <Grid header={searchTerm ? "Search Result" : "Popular Movies"}>
         {/*If there is a search term the grid will say search result if there is no search term the grid will say popular movies */}
         {state.results.map(
@@ -133,7 +134,7 @@ export default Home;
 //   componentDidMount() {
 //     this.fetchMovies(1);
 //   }
-//   //Render is like the useEffect() in an functional component;
+//   //Render is like the useEffect() in a functional component;
 //   render() {
 //     const { searchTerm, movies, loading, error } = this.state;
 
@@ -141,7 +142,7 @@ export default Home;
 
 //     return (
 //       <>
-//         {/*This is a fragment item used to wrap everything else;*/}
+//         {/*This <> is a fragment item used to wrap everything else;*/}
 
 //         {!searchTerm && movies.results[0] ? ( //If theres no search term and there is the first movie in the array;
 //           <HeroImage

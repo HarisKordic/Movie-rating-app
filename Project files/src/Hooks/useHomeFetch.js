@@ -21,7 +21,7 @@ export const useHomeFetch = () => {
     //Fetch function;
     try {
       setError(false); //No current error;
-      setLoading(true); //Fetching
+      setLoading(true); //Fetching;
       const movies = await API.fetchMovies(searchTerm, page);
 
       setState((prev) => ({
@@ -39,7 +39,7 @@ export const useHomeFetch = () => {
   useEffect(() => {
     if (!searchTerm) {
       //If not searching for some movie currently:
-      const sessionState = isPersistedState('homeState'); //Hard-coding  the string;Not best way!;
+      const sessionState = isPersistedState('homeState'); //Hard-coding  the string;Not the best way!;
       if (sessionState) {
         //If there is a sessionState do the following:
         console.log("Grabbing from sessionStorage");
@@ -64,7 +64,7 @@ export const useHomeFetch = () => {
   //Write to sessionStorage:
   useEffect(() => {
     if (!searchTerm)
-      //If we're in a search we don't want to save that one;
+      //If we're in a search we don't want to save yet, because there's no final results;
       sessionStorage.setItem('homeState', JSON.stringify(state)); //First par. name (key) of the session second one is the value;
       //key name has to be the same as the parsed one in the function isPersistedState();
   }, [searchTerm, state]);

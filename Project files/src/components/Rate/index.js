@@ -14,7 +14,6 @@ const Rate = ({ callback }) => {
           value={value}
           onChange={(event) => setValue(event.currentTarget.value)}
         />
-        {value}
         <p>
           <button id="rateBtn" onClick={() => callback(value)}>
             Rate
