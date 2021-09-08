@@ -1,5 +1,6 @@
 # Movie-rating-app
 
+[WEBSITE LINK](https://gallant-hopper-49bc11.netlify.app/)
 
 This is a simple project, where I used plain React JavaScript and TMDB’s API to create a responsive and interactive movie rating/info website.The website is fully responsive and ready to use on any modern device.
 
